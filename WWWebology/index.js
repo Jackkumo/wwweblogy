@@ -21,7 +21,9 @@ function welcome_button() {
     }
 }
 
-function email_listerve() {
-    prompt("Enter Email Below");
-    alert("Thank you for joining our community! Time to Get Eating");
+function email_listserve() {
+    let email_answer = prompt("Enter Email Below");
+    if (email_answer != null) {
+        alert("Thank you for joining our community! Time to Get Eating!!!");
+    }
 }
