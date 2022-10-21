@@ -22,6 +22,6 @@ function welcome_button() {
 }
 
 function email_listerve() {
-    let email_response = prompt("Enter Email Below");
+    prompt("Enter Email Below");
     alert("Thank you for joining our community! Time to Get Eating");
 }
