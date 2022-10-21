@@ -1,19 +1,9 @@
-* {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-}
-
-h1, 
-h2, 
-h3, 
-h4 {
-    color:rgb(27, 18, 132);
-}
-
 .header {
     border-style: inset;
     border-color: blue;
     border-width: 15px;
-    background-color: rgba(82, 181, 239, 0.567);
+    background-color: rgba(82, 181, 239, 0.479);
     
 }
+
+
