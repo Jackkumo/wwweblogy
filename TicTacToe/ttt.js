@@ -1,16 +1,12 @@
 let turn = 0;
 function clickTile(x, y, event) {
-    // checks for a win
-    
-
-    // goes through with action
-    const elm = event.target;
-    if (elm.innerHTML == "") {
+    const element = event.target;
+    if (element.innerHTML == "" ) {
         if (turn % 2 == 0) {
-            elm.innerHTML = 'X';
+            element.innerHTML = "X";
         } else {
-            elm.innerHTML = 'O';
+               element.innerHTML = "O";
         }
-    turn += 1;
+        turn += 1;
     }
 }
